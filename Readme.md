@@ -11,7 +11,7 @@
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine. 
+These instructions will get you a copy of the project up and running on your local machine.
 
 ### Installing
 
@@ -34,9 +34,4 @@ npm start
 
 ## Acknowledgments
 
-* The Design was made by https://dribbble.com/RikoSapto
-
-
-
-
-
+* The Design was made by https://dribbble.com/shots/3435054-Cicis-Website-Design
