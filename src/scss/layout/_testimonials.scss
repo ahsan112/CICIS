@@ -1,0 +1,25 @@
+@import "_variables.scss";
+
+
+.l-testimonails {
+    height: 48em;
+    background-color: $secondry-bg-colour;
+}
+
+.l-testimonails__title {
+  padding-top: 5%;
+  text-align: center;
+}
+
+
+.l-testimonails__block {
+  margin-top: 10%;
+  width: 29%;
+}
+
+.l-testimonails__block--active {
+  margin-top: 10%;
+  width: 35%;
+  position: relative;
+  top: -21px;
+}

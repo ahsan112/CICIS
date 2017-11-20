@@ -1,0 +1,51 @@
+@import "_variables";
+
+.testimonail__block {
+  font-family: $font-family;
+  word-break: break-all;
+  // display: inline-block;
+  // width: 29%;
+  // margin-right: 2%;
+  background-color: $testimonail-bg-colour;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 7.4px;
+}
+
+.testimonail__header {
+
+}
+
+.testimonail__figure {
+  text-align: center;
+}
+
+.testimonail__title {
+  color: $primary-colour;
+}
+
+.testimonail__sub-title {
+  color: $primary-colour--light;
+}
+
+
+.testimonail__content {
+  line-height: 1.8;
+  padding: 5%;
+  padding-top: 30%;
+  color: $secondry-colour--beta;
+  // color: $secondry-colour--light;
+}
+
+.testimonail--active {
+  height: 18em;
+  background-color: $defualt-colour;
+  border-radius: 11px;
+  font-family: $font-family;
+  // color: $primary-colour;
+  // width: 35%;
+  // position: relative;
+  // top: 7px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+
+
+}

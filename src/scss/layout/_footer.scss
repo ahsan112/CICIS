@@ -1,0 +1,14 @@
+@import "_variables.scss";
+
+.l-footer {
+  height: 15em;
+  background-color: $footer-colour;
+  color: $defualt-colour;
+}
+
+.l-footer__title {
+  display: inline-block;
+  color: $defualt-colour;
+  margin-left: 5%;
+  margin-top: 5%;
+}

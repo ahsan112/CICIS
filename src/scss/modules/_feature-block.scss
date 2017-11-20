@@ -1,0 +1,31 @@
+@import "_variables";
+
+.feature__block {
+  font-family: $font-family;
+  margin-top: 3%;
+}
+
+.feature__block:first-child {
+  margin-left: 0!important;
+}
+
+
+.block--small {
+  text-align: center;
+}
+
+.feature__figure {
+
+}
+
+.feature__title {
+
+}
+
+.feature__content {
+  color: $primary-colour--light;
+}
+
+.content--small {
+  color: $secondry-colour--light;
+}

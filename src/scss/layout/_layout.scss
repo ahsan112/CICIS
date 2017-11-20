@@ -1,0 +1,20 @@
+@import "_grid.scss";
+@import "_header.scss";
+@import "_hero.scss";
+@import "_cicis-features.scss";
+@import "_finance-features.scss";
+@import "_tickets-features.scss";
+@import "_testimonials.scss";
+@import "_mobile-ticket-features.scss";
+@import "_footer.scss";
+
+.wrap {
+  width: 100%;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 1%;
+  padding-right: 1%;
+}

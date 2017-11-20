@@ -1,0 +1,16 @@
+@import "variables";
+
+.l-header {
+  background-color: $hero-bg-colour;
+}
+
+.l-header__figure {
+  margin: 0;
+  display: inline-block;
+  margin-left: 4%;
+  margin-top: 4%;
+}
+
+.l-header__nav {
+  margin-top: 4%;
+}

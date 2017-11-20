@@ -1,0 +1,163 @@
+@import "_variables.scss";
+@import "mixins.scss";
+
+@import "base/_base.scss";
+
+@import "layout/_layout.scss";
+
+@import "modules/_modules";
+
+
+
+/* Media queries
+-------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 1426px) {
+  .l-header__nav {
+      width: 55%;
+  }
+}
+
+@media screen and (max-width: 1293px) {
+  .l-header__nav {
+      width: 60%;
+  }
+  .l-header__nav {
+      width: 60%;
+  }
+  .l-hero__figure {
+    margin-left: 3%;
+
+  }
+  .l-hero__content {
+    width: 47%;
+    margin-left: 12%;
+  }
+}
+
+@media screen and (max-width: 1185px) {
+  .l-header__nav {
+      display: none;
+  }
+}
+
+@media screen and (max-width: 1016px) {
+  .l-testimonails {
+      height: 67em;
+      background-color: #f6fafb;
+  }
+
+  .l-testimonails__title {
+    margin-bottom: 5%;
+  }
+
+  .l-testimonails__block {
+    margin-top: 0;
+    margin-bottom: 5%;
+    width: 65%;
+    margin-left: 19%;
+  }
+  .l-testimonails__block--active {
+    // margin-bottom: -3%;
+    width: 79% !important;
+    margin-left: 11%;
+    position: relative;
+    top: 0px;
+  }
+  .testimonail__content {
+    padding: 10%;
+    padding-top: 16%;
+
+  }
+}
+
+@media screen and (max-width: 875px)  {
+  .l-hero__figure {
+    display: none;
+  }
+  .l-hero__content {
+    margin-left: 0;
+    margin-top: 12%;
+    text-align: center;
+    width: 100%;
+    top: 0;
+  }
+
+  .l-finance-features__icon img {
+    width: 57px;
+  }
+  .l-tickets-features__icon img {
+    width: 57px;
+  }
+
+}
+
+@media screen and (max-width: 875px)  {
+  .l-cicis-features {
+    height: 82em;
+  }
+  .l-finance-features {
+    height: 75em;
+  }
+  .l-tickets-features{
+    height: 75em;
+  }
+  .feature__block {
+    width: 100%;
+  }
+  .l-finance-features__content {
+    display: none;
+  }
+  .l-finance-features__figure {
+    display: none;
+  }
+  .l-finance-features__icon {
+    display: none;
+  }
+  .l-tickets-features__icon {
+    display: none;
+  }
+  .l-tickets-features__content {
+    display: none;
+  }
+  .l-tickets-features__figure {
+    display: none;
+  }
+  .l-tickets-features__figure--mobile {
+    display: block;
+  }
+  .l-tickets-features__content--mobile {
+    display: block;
+  }
+
+  .l-feature__title--mobile {
+    display: block;
+  }
+
+  .l-feature__content--mobile {
+    display: block;
+  }
+
+  .l-finance-features__figure--mobile {
+    display: block;
+  }
+
+  .l-finance-features__content--mobile {
+    display: block;
+  }
+
+
+}
+
+@media screen and (max-width: 875px)  {
+
+  .l-testimonails__block {
+    width: 85%;
+    margin-left: 7%;
+  }
+  .l-testimonails__block--active {
+    width: 85% !important;
+    // margin-left: 7%;
+  }
+
+}

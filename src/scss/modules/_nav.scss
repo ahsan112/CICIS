@@ -1,0 +1,21 @@
+.navigation {
+  display: inline-block;
+  width: 50%;
+
+}
+
+.navigation__list {
+  padding-left: 0;
+}
+
+.navigation__item {
+  display: inline-block;
+  margin-right: 8%;
+  font-family: $font-family;
+  color: $defualt-colour;
+  text-transform: uppercase;
+}
+
+.float--right {
+  float: right;
+}

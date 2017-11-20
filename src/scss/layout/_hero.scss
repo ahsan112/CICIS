@@ -1,0 +1,36 @@
+@import "_variables";
+
+
+.l-hero {
+  background-color: $hero-bg-colour;
+  height: 34em;
+  position: relative;
+}
+
+.l-hero:after {
+  transform: skewY(-4.5deg);
+  transform-origin: 100%;
+  background: inherit;
+  content: ' ';
+  height: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+
+
+.l-hero__content {
+  display: inline-block;
+  width: 32%;
+  margin-left: 20%;
+  position: relative;
+  bottom: 20em;
+}
+
+.l-hero__figure {
+  display: inline-block;
+  margin-left: 11%;
+  margin-top: 9%;
+}

@@ -1,0 +1,24 @@
+@import "_variables.scss";
+
+.l-finance-features {
+  background-color: $secondry-bg-colour;
+  height: 48em;
+}
+
+.l-finance-features__figure {
+}
+
+.l-finance-figure__image {
+  width: 62%;
+  position: relative;
+  top: -5em;
+  padding-left: 16%;
+}
+
+.l-finance-features__icon {
+  padding-top: 8%;
+}
+
+.l-finance-features__content {
+  padding-top: 6%;
+}
